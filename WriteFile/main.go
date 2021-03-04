@@ -12,7 +12,7 @@ func main() {
 		return
 	}
 
-	tx, err := fl.WriteString("oh, vitória chegou |\n Oh, pai, só gratidão |\n oh, mão, só gratidão")
+	tx, err := fl.WriteString("Deus abençoou \n Oh, vitória chegou \n Oh, pai, só gratidão \n oh, mãe, só gratidão")
 	if err != nil {
 		fmt.Println(err)
 		fl.Close()
